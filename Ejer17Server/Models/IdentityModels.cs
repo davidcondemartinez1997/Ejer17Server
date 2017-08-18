@@ -29,5 +29,7 @@ namespace Ejer17Server.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Ejer17Server.Persona> Personas { get; set; }
     }
 }
